@@ -5,7 +5,6 @@
         <RouterLink to="/">Home</RouterLink> |
         <RouterLink to="/About">About</RouterLink> |
         <RouterLink to="/About1">About1</RouterLink> |
-        <RouterLink to="/Sproutables">Sproutables</RouterLink> |
         <RouterLink to="/FarEast">FarEast</RouterLink> |
         <RouterLink to="/Mediterranean">Mediterranean</RouterLink> |
         <RouterLink to="/VeganMeat">VeganMeat</RouterLink> |
