@@ -3,9 +3,14 @@
     <header>
       <nav>
         <RouterLink to="/">Home</RouterLink> |
-        <RouterLink to="/about">About</RouterLink> |
-        <RouterLink to="/about1">About1</RouterLink> |
-        <RouterLink to="/contact">Contact</RouterLink>
+        <RouterLink to="/About">About</RouterLink> |
+        <RouterLink to="/About1">About1</RouterLink> |
+        <RouterLink to="/Sproutables">Sproutables</RouterLink> |
+        <RouterLink to="/FarEast">FarEast</RouterLink> |
+        <RouterLink to="/Mediterranean">Mediterranean</RouterLink> |
+        <RouterLink to="/VeganMeat">VeganMeat</RouterLink> |
+        <RouterLink to="/Grain">Grain</RouterLink> |
+        <RouterLink to="/Contact">Contact</RouterLink> |
       </nav>
     </header>
 

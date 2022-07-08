@@ -16,19 +16,49 @@ const router = new Router({
       path: "/about",
       name: "About",
       component: () =>
-          import(/* webpackChunkName: "About" */ "./views/About"),
+          import(/* webpackChunkName: "About" */ "./views/about"),
     },
     {
       path: "/about1",
       name: "About1",
       component: () =>
-          import(/* webpackChunkName: "About" */ "./views/About"),
+          import(/* webpackChunkName: "About1" */ "./views/about1"),
+    },
+    {
+      path: "/sproutables",
+      name: "Sproutables",
+      component: () =>
+          import(/* webpackChunkName: "Sproutables" */ "./views/sproutables"),
+    },
+    {
+      path: "/farEast",
+      name: "FarEast",
+      component: () =>
+          import(/* webpackChunkName: "FarEast" */ "./views/farEast"),
+    },
+    {
+      path: "/mediterranean",
+      name: "Mediterranean",
+      component: () =>
+          import(/* webpackChunkName: "Mediterranean" */ "./views/mediterranean"),
+    },
+    {
+      path: "/veganMeat",
+      name: "VeganMeat",
+      component: () =>
+          import(/* webpackChunkName: "VeganMeat" */ "./views/veganMeat"),
+    },
+    {
+      path: "/grain",
+      name: "Grain",
+      component: () =>
+          import(/* webpackChunkName: "Grain" */ "./views/grain"),
     },
     {
       path: "/contact",
       name: "Contact",
       component: () =>
-          import(/* webpackChunkName: "Contact" */ "./views/Contact"),
+          import(/* webpackChunkName: "Contact" */ "./views/contact"),
     },
     {
       path: "/success",
